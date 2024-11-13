@@ -1,5 +1,8 @@
-# Read input of three words
-a, b, c = input().split()
+# Read three different integers from the user
+a, b, c = map(int, input().split())
 
-# Print the words in reverse order
-print(c, b, a)
+# Find the maximum of the three numbers
+maximum = max(a, b, c)
+
+# Print the maximum number
+print(maximum)
