@@ -1,0 +1,6 @@
+a = input("Enter the first word: ")
+b = input("Enter the second word: ")
+c = input("Enter the third word: ")
+
+# Print the words in reverse order: c, b, a
+print(c, b, a)
