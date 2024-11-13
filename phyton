@@ -1,6 +1,5 @@
-a = input("Enter the first word: ")
-b = input("Enter the second word: ")
-c = input("Enter the third word: ")
+# Read input of three words
+a, b, c = input().split()
 
-# Print the words in reverse order: c, b, a
+# Print the words in reverse order
 print(c, b, a)
